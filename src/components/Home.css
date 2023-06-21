@@ -1,0 +1,16 @@
+.home_heading {
+  color: black;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.transition_heading {
+  animation: slideDown 5s ease;
+}
