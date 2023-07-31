@@ -33,9 +33,9 @@ const OrderHistory = () => {
   const navigate = useNavigate();
 
   const location = useLocation();
-  const { orderData, cartItem } = location.state;
+  const { orderData, cartItem } = location.state; //peche se jo navigation se state ki shakal me data bejha tha wo uselocation ki help se fetch kr raha hu
   const [orderHistory, setOrderHistory] = useState([orderData]);
-  console.log("cart", cartItem);
+  // console.log("cart", cartItem);
 
   if (error) {
     return <div>Error: {error}</div>;

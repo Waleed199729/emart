@@ -9,7 +9,7 @@ const ParentRef = () => {
   const count = useRef(1);
   const inputRef = useRef();
   useEffect(() => {
-    // console.log(inputRef.current);
+    console.log(inputRef.current);
     // setCount((prevState) => prevState + 1);
     count.current += 1;
   });

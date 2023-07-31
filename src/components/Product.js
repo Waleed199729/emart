@@ -9,6 +9,7 @@ const Product = () => {
   const myName = useContext(MyOwnName);
 
   const { id } = useParams();
+  // console.log("id hai ye", id);
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
